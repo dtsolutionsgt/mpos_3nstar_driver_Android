@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/tns_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:id="@+id/llport"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/connetpor_selector"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/connectport"
+                android:layout_width="60dp"
+
+                android:layout_height="match_parent"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/spiner_selector"
+                android:entries="@array/port"
+                android:spinnerMode="dropdown" />
+
+            <Button
+                android:id="@+id/buttonSB"
+                style="@style/ButtonText"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="@string/sb"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/showET"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2"
+
+                android:ems="10"
+                android:hint="@string/hint" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonConnect"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:enabled="true"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/buttonDisconnect"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:enabled="true"
+            android:text="@string/discon" />
+
+        <Button
+            android:id="@+id/buttonpos"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:enabled="true"
+            android:text="@string/start_pos_activity" />
+
+        <Button
+            android:id="@+id/button76"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:enabled="true"
+            android:text="@string/start_76_activity" />
+
+        <Button
+            android:id="@+id/buttonTsc"
+            style="@style/ButtonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:enabled="true"
+            android:text="@string/start_tsc_activity" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
