@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.utils;
+package com.dts.prn3nsw.utils;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 
-import com.posprinter.mpos_3nstar_driver.R;
+import com.dts.prn3nsw.R;
 
 import java.util.ArrayList;
 

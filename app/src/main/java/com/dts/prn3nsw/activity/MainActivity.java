@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.activity;
+package com.dts.prn3nsw.activity;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
@@ -13,9 +13,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.IBinder;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -32,9 +32,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 
-import com.posprinter.mpos_3nstar_driver.R;
-import com.posprinter.mpos_3nstar_driver.utils.Conts;
-import com.posprinter.mpos_3nstar_driver.utils.DeviceReceiver;
+import com.dts.prn3nsw.R;
+import com.dts.prn3nsw.utils.Conts;
+import com.dts.prn3nsw.utils.DeviceReceiver;
 
 import net.posprinter.posprinterface.IMyBinder;
 import net.posprinter.posprinterface.UiExecute;

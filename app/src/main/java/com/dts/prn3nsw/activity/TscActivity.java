@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.activity;
+package com.dts.prn3nsw.activity;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -6,9 +6,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -16,8 +16,8 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 
-import com.posprinter.mpos_3nstar_driver.R;
-import com.posprinter.mpos_3nstar_driver.utils.StringUtils;
+import com.dts.prn3nsw.R;
+import com.dts.prn3nsw.utils.StringUtils;
 
 import net.posprinter.posprinterface.ProcessData;
 import net.posprinter.posprinterface.UiExecute;
@@ -27,7 +27,7 @@ import net.posprinter.utils.DataForSendToPrinterTSC;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.posprinter.mpos_3nstar_driver.utils.StringUtils.strTobytes;
+import static com.dts.prn3nsw.utils.StringUtils.strTobytes;
 
 public class TscActivity extends AppCompatActivity implements View.OnClickListener {
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.posprinter.mpos_3nstar_driver">
+    package="com.dts.prn3nsw">
 
     <uses-feature
         android:name="android.hardware.usb.host"
@@ -46,7 +46,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.posprinter.mpos_3nstar_driver.activity.MainActivity">
+        <activity android:name="com.dts.prn3nsw.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -55,9 +55,9 @@
         </activity>
         <service android:name="net.posprinter.service.PosprinterService" />
 
-        <activity android:name="com.posprinter.mpos_3nstar_driver.activity.PosActivity" />
-        <activity android:name="com.posprinter.mpos_3nstar_driver.activity.Z76Activity" />
-        <activity android:name="com.posprinter.mpos_3nstar_driver.activity.TscActivity" />
+        <activity android:name="com.dts.prn3nsw.activity.PosActivity" />
+        <activity android:name="com.dts.prn3nsw.activity.Z76Activity" />
+        <activity android:name="com.dts.prn3nsw.activity.TscActivity" />
     </application>
 
 </manifest>

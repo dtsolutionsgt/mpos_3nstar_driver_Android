@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.utils;
+package com.dts.prn3nsw.utils;
 
 import java.io.UnsupportedEncodingException;
 

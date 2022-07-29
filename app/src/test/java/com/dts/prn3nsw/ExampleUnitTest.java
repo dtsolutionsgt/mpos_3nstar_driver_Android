@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver;
+package com.dts.prn3nsw;
 
 import org.junit.Test;
 

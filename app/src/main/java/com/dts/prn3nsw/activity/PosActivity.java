@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.activity;
+package com.dts.prn3nsw.activity;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -10,12 +10,11 @@ import android.graphics.Bitmap;
 import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.snackbar.Snackbar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +23,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.posprinter.mpos_3nstar_driver.R;
+import com.dts.prn3nsw.R;
 import com.zxy.tiny.Tiny;
 import com.zxy.tiny.callback.BitmapCallback;
 
@@ -34,14 +33,10 @@ import net.posprinter.utils.BitmapToByteData;
 import net.posprinter.utils.DataForSendToPrinterPos80;
 import net.posprinter.utils.PosPrinterDev;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.posprinter.mpos_3nstar_driver.utils.StringUtils.strTobytes;
+import static com.dts.prn3nsw.utils.StringUtils.strTobytes;
 
 public class PosActivity extends AppCompatActivity implements View.OnClickListener{
 

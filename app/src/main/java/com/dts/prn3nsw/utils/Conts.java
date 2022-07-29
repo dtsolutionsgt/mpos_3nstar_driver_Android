@@ -1,4 +1,4 @@
-package com.posprinter.mpos_3nstar_driver.utils;
+package com.dts.prn3nsw.utils;
 
 public class Conts {
 	public static final int ENABLE_BLUETOOTH=1;

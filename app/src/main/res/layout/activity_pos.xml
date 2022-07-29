@@ -5,7 +5,7 @@
     android:id="@+id/activity_pos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.posprinter.mpos_3nstar_driver.activity.PosActivity">
+    tools:context="com.dts.prn3nsw.activity.PosActivity">
 
     <ScrollView
         android:layout_width="match_parent"
